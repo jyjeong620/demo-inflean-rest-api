@@ -41,7 +41,7 @@ public class Event {
         }
 
         //Update offline
-        if(this.location == null || this.location.isBlank()){
+        if(this.location == null || this.location.isBlank()){       //isBlank java 11 부터 사용가능함
             this.offline = false;
         } else{
             this.offline = true;
