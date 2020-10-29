@@ -21,6 +21,7 @@ public class EventValidator {
         }
 
         // TODO beginEventDataTime
+
         // TODO CloseEnrollmentDateTime
     }
 }
